@@ -1,6 +1,6 @@
 import Tasks from "./Tasks";
 
-export function ToDoList({ items, onDelete, onUpdate, sortedItems }) {
+export default function ToDoList({ items, onDelete, onUpdate, sortedItems }) {
   return (
     <>
       <div className="container">
