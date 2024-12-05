@@ -226,6 +226,20 @@ footer {
   .footer-text {
     font-size: 18px;
   }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  input[type="date"] {
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  input[type="time"] {
+    width: 100%;
+    padding: 10px 12px;
+  }
 }
 
 @media (max-width: 355px) {
